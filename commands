@@ -1,0 +1,2 @@
+gcc main.c lexer.c parser.c compiler.c vm.c ast_printer.c -o dsl -lm
+./dsl program.dsl
